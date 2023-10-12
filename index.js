@@ -1,4 +1,4 @@
-function isPalindrome(word) {
+/*function isPalindrome(word) {
   // Write your algorithm here
   let oneLetter=word.length;
   if (oneLetter < 2){
@@ -16,7 +16,22 @@ function isPalindrome(word) {
   end-=1;
 }
 return true;
+}*/
+/*reverse the input string, 
+check if the input same as  resevered input return true
+ else false.*/
+function reverse(word){
+ //const wordArray = word.split("")
+ //const wordReversedArray = wordArray.reverse()
+ //const reversedWord = wordReversedArray.join("")
+  return word.split("").reverse().join("")
 }
+function isPalindrome(word){
+ const reversedWord=reverse(word)
+ return word === reversedWord
+ }
+
+
 
 /* 
   Add your pseudocode here

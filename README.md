@@ -29,7 +29,9 @@ Output: true
 Input: "robot"
 Output: false
 ```
-
+1. make a function return true if a word is palindrome and false if not that's means if the word is the same as the reversed word return true if not false 
+2. noon === noon //true abc === cba//false
+3. reverse the input string, check if the input same as  resevered input return true otherwise false.
 ## Problem Solving Approach
 
 Use the
